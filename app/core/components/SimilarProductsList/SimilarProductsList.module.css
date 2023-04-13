@@ -1,0 +1,25 @@
+.productsList {
+  grid-row-gap: 32px;
+  grid-column-gap: 8px;
+}
+
+.productsList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.productsList::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.productsList::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border-radius: 24px;
+  border: 1px solid #eee;
+}
+
+@media (min-width: 1024px) {
+  .productsList {
+    grid-row-gap: 32px;
+    grid-column-gap: 16px;
+  }
+}

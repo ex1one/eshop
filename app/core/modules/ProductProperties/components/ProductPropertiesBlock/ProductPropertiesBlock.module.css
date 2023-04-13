@@ -1,0 +1,25 @@
+.list::-webkit-scrollbar {
+  width: 0;
+}
+
+.disabled {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #e4e4e4;
+  opacity: 0.76;
+}
+
+.disabled::after {
+  content: "";
+  width: calc(100% + 9px);
+  background-color: rgba(34, 34, 34, 0.3);
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 3px;
+  transform: rotate(45deg) translateX(6px);
+  transform-origin: top left;
+}

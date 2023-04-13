@@ -1,0 +1,7 @@
+.modal {
+  max-height: 600px;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}

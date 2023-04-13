@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .sidebar {
+    width: calc(2 * (12.5% - 28px) + (2 - 1) * 32px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: calc(3 * (8.33333% - 29.33333px) + (3 - 1) * 32px);
+  }
+}

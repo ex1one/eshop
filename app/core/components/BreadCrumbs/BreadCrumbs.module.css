@@ -1,0 +1,18 @@
+.crumbs::-webkit-scrollbar {
+  display: none;
+}
+
+.linkUnderline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-size: 0 1px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-in-out;
+}
+
+.linkUnderline:hover {
+  background-size: 100% 1px;
+  background-position: 50% 100%;
+}

@@ -1,0 +1,13 @@
+.content {
+  transition: opacity 2s ease;
+  animation: show 0.2s forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

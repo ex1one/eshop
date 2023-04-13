@@ -1,0 +1,13 @@
+.wrapper {
+  transform: translateY(50vh) translateY(-50%);
+}
+
+.image {
+  height: auto;
+  display: block !important;
+  max-height: 100vh;
+  max-width: 100%;
+  position: absolute;
+  transform: translate(50vw, -50vw) translate(-50%, -50%);
+  width: auto !important;
+}
